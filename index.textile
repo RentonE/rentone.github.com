@@ -14,7 +14,7 @@ h1. Hello.
 
 在XKW大神的指导和引用了Michael Monteleone的模板后，这个页面有了点初步的样子。
 
-会持续更新得！
+会持续更新得！！
 
 </div>
 
