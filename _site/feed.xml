@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Michael Monteleone</title>
+ <link href="http://michaelmonteleone.net/feed.xml" rel="self"/>
+ <link href="http://michaelmonteleone.net/"/>
+ <updated>2013-05-23T15:06:52+08:00</updated>
+ <id>http://michaelmonteleone.net/</id>
+ <author>
+   <name>Michael Monteleone</name>
+   <email>michael@michaelmonteleone.net</email>
+ </author>
+
+ 
+ <entry>
+   <title>Low Blow</title>
+   <link href="http://michaelmonteleone.net/2010/08/03/low-blow/"/>
+   <updated>2010-08-03T00:00:00+08:00</updated>
+   <id>http://michaelmonteleone.net/2010/08/03/low-blow</id>
+   <content type="html">&lt;p&gt;This is a low blow, but it&amp;#8217;s been awhile since I fired up a fresh Internet Explorer instance within a fresh Windows Virtual Machine. And, &lt;em&gt;lo&amp;#8230;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='/assets/images/lowblow-ie.png' alt='Internet Explorer 8 in Windows 7' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s compare.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='/assets/images/lowblow-safari.png' alt='Safari 5 in OS X' /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m not comparing rendering engines &amp;#8212; I deliberately erased the content to cancel that variable. No, I&amp;#8217;m comparing the &lt;em&gt;browsers&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://en.wikipedia.org/wiki/Hanlon&amp;apos;s_razor'&gt;Hanlon&amp;#8217;s Razor&lt;/a&gt; can only &lt;em&gt;barely&lt;/em&gt; slice into what could otherwise be interpreted as ill will toward users and near-total disregard for painstakingly-crafted Web content. Yes, this is &lt;em&gt;personal&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id='no_hierarchy'&gt;No hierarchy&lt;/h3&gt;
+
+&lt;p&gt;What&amp;#8217;s most important? The complementary orange-on-blue Bing logo? The favorites star? Maybe that &lt;em&gt;other&lt;/em&gt; favorites star with the arrow on it? Or maybe that big red X in the corner? They certainly all seem more exciting than your web page.&lt;/p&gt;
+
+&lt;h3 id='no_grid'&gt;No grid&lt;/h3&gt;
+
+&lt;p&gt;Where are your readers&amp;#8217; eyeballs, and why aren&amp;#8217;t they reading your site? Maybe they&amp;#8217;re still bouncing around the pinball machine of overlapping, randomly placed, randomly sized toolbars.&lt;/p&gt;
+
+&lt;h3 id='microsofts_brand__your_brand'&gt;Microsoft&amp;#8217;s Brand &amp;gt; Your Brand&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;While you&amp;#8217;re using it&lt;/em&gt;, Safari does not care if you know its name or icon.&lt;/p&gt;
+
+&lt;h3 id='your_users_are_tired_and_scared'&gt;Your users are tired and scared&lt;/h3&gt;
+
+&lt;p&gt;That&amp;#8217;s right, they&amp;#8217;ve been subconsciously fighting off the ever-encroaching onslaught of ambiguous and repetitious icons and statuses.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8221;&lt;em&gt;Protected Mode On?&lt;/em&gt; Well that sounds good.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&amp;#8221;&lt;em&gt;Internet?&lt;/em&gt; Well, duh&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&amp;#8221;&lt;em&gt;100%?&lt;/em&gt; A+, I guess.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;And most personal of all&amp;#8230;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id='so_much_color'&gt;So much Color&lt;/h3&gt;
+
+&lt;p&gt;Ignoring the heinous gradients, consider the browser&amp;#8217;s bold and very specific coloring alone and how it thickly surrounds the entire page. Now try to remember the last time you visited a museum that did &lt;em&gt;not&lt;/em&gt; have pure white walls.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s hope the Internet Explorer 9 team invests in the browser as much as they have already invested in its rendering engine.&lt;/p&gt;</content>
+   <author>
+     <name>Michael Monteleone</name>
+     <uri>http://michaelmonteleone.net</uri>
+   </author>   
+ </entry>
+ 
+ <entry>
+   <title>SuperGenFail</title>
+   <link href="http://michaelmonteleone.net/2010/07/19/supergenfail/"/>
+   <updated>2010-07-19T00:00:00+08:00</updated>
+   <id>http://michaelmonteleone.net/2010/07/19/supergenfail</id>
+   <content type="html">&lt;style type='text/css'&gt;
+form#supergenpass_test {
+    height: auto;
+    overflow: auto;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    }
+    form#supergenpass_test div {
+        clear: both;
+        padding-bottom: 10px;
+        }
+    form#supergenpass_test label {
+        width: 100px;
+        float: left;
+        font-size: 16px;
+        line-height: 25px;
+        }
+    form#supergenpass_test input {
+        width: 200px;
+        padding: 2px;
+        font-size: 16px;
+        font-family: Helvetica, Arial, verdana;
+        border: 1px solid #000;
+        }
+&lt;/style&gt;&lt;script type='text/javascript'&gt;
+(function($) {
+    var eventName = 'masterPassword',
+        genPassInput = '#gp2_pass_box input[type=&quot;password&quot;]',
+        genPassButton = '#gp2_pass_box input[type=&quot;button&quot;]';
+    $.event.special.masterPassword = {
+        setup: function() {
+            var elem = $(this),
+                captureMasterPassword = function() {
+                    elem.trigger(eventName, $(genPassInput).val());
+                };
+            $(genPassButton).live('click', captureMasterPassword);
+            $(genPassInput).live('keydown', function(e) {
+                if (e.keyCode === 13) { captureMasterPassword(e); }
+            });
+        }
+    };
+})(jQuery);
+
+jQuery(function($){
+    $(document).bind('masterPassword', function(e, data) {
+        $('&lt;div&gt;&lt;em&gt;Be safe, stop using SuperGenPass.  Your master password is: &lt;strong&gt;' + data +'&lt;/strong&gt;&lt;/em&gt;&lt;/div&gt;')
+            .hide()
+            .appendTo($('#supergenpass_test'))
+            .show(300);
+    });        
+});
+
+&lt;/script&gt;
+&lt;p&gt;&lt;a href='http://supergenpass.com/'&gt;SuperGenPass&lt;/a&gt; is a popular password management tool. The pitch:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Instead of storing your passwords on your hard disk or online—where they are vulnerable to theft and data loss—SuperGenPass uses a hash algorithm to transform a master password into unique, complex passwords for the Web sites you visit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And this functionality is all bundled up in a bookmarklet. Alice visits a host&amp;#8217;s login form, clicks her SuperGenPass bookmarklet, enters her master password, and her host&amp;#8217;s password field is instantly populated with a hash of the host&amp;#8217;s URL + her master password &amp;#8211; a long, unique, password that Alice never even has to know. &lt;em&gt;Clever.&lt;/em&gt; Except,&lt;/p&gt;
+
+&lt;h3 id='supergenpass_is_completely_insecure'&gt;SuperGenPass is completely insecure.&lt;/h3&gt;
+
+&lt;p&gt;SuperGenPass presents a small master password form overlaid across the host&amp;#8217;s login page by injecting its form &lt;em&gt;into the DOM of the host page&lt;/em&gt;. So, when Alice is providing her master password, she&amp;#8217;s &lt;em&gt;crossing a trust boundary&lt;/em&gt;. The master password, which ideally is never transmitted to &lt;em&gt;any&lt;/em&gt; party, becomes co-mingled with the host&amp;#8217;s untrusted data and scripts simply by being typed. And of course, once the site has the master, it can be transmitted back to the host, or even other domains. An XSS hole would allow an attacker to easily plant a master password collector.&lt;/p&gt;
+
+&lt;h3 id='jquerybased_attack'&gt;jQuery-based Attack&lt;/h3&gt;
+
+&lt;p&gt;As of writing, SuperGenPass&amp;#8217;s &lt;a href='http://supergenpass.com/'&gt;site&lt;/a&gt; neither identifies its creator nor provides a way to contact its maintainers, and its &lt;a href='http://groups.google.com/group/supergenpass'&gt;mailing list&lt;/a&gt; has disappeared. It seems reasonable to demonstrate just how easy it is to capture a master password.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s a quickie &lt;a href='http://jquery.com/'&gt;jQuery&lt;/a&gt; plugin which uses the &lt;a href='http://benalman.com/news/2010/03/jquery-special-events/'&gt;Special Events API&lt;/a&gt; to expose a new event named &lt;code&gt;masterPassword&lt;/code&gt; which is raised after a user has entered a master password, passing along the password as event data. It uses live event delegation to bind events raised on SuperGenPass form inputs which will be injected by the bookmarklet.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='kd'&gt;var&lt;/span&gt; &lt;span class='nx'&gt;eventName&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;masterPassword&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+        &lt;span class='nx'&gt;genPassInput&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;#gp2_pass_box input[type=&amp;quot;password&amp;quot;]&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+        &lt;span class='nx'&gt;genPassButton&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;#gp2_pass_box input[type=&amp;quot;button&amp;quot;]&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+    &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;event&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;special&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='nx'&gt;eventName&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='nx'&gt;setup&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+            &lt;span class='kd'&gt;var&lt;/span&gt; &lt;span class='nx'&gt;elem&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='k'&gt;this&lt;/span&gt;&lt;span class='p'&gt;),&lt;/span&gt;
+                &lt;span class='nx'&gt;captureMasterPassword&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+                    &lt;span class='nx'&gt;elem&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;trigger&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;eventName&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;genPassInput&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;val&lt;/span&gt;&lt;span class='p'&gt;());&lt;/span&gt;
+                &lt;span class='p'&gt;};&lt;/span&gt;
+            &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;genPassButton&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;live&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;captureMasterPassword&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+            &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;genPassInput&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;live&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;keydown&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;e&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+                &lt;span class='k'&gt;if&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;e&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;keyCode&lt;/span&gt; &lt;span class='o'&gt;===&lt;/span&gt; &lt;span class='mi'&gt;13&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='nx'&gt;captureMasterPassword&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;e&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt;
+            &lt;span class='p'&gt;});&lt;/span&gt;
+        &lt;span class='p'&gt;}&lt;/span&gt;
+    &lt;span class='p'&gt;};&lt;/span&gt;
+&lt;span class='p'&gt;})(&lt;/span&gt;&lt;span class='nx'&gt;jQuery&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A &lt;em&gt;friendly&lt;/em&gt; site could use it for good:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;document&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;bind&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;masterPassword&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;e&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;data&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='nx'&gt;alert&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;Be safe, stop using SuperGenPass.  Your master password was &amp;#39;&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='nx'&gt;data&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='p'&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;So, let&amp;#8217;s try it out. Grab the SuperGenPass &lt;a href='http://supergenpass.com/'&gt;bookmarklet&lt;/a&gt;, and then come back here and click it. The mockup login form below will be automatically targeted.&lt;/p&gt;
+&lt;form action='/' method='GET' id='supergenpass_test'&gt;
+    &lt;div&gt;
+        &lt;label for='username'&gt;User Name&lt;/label&gt;&lt;input type='text' name='username' /&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;label for='password'&gt;Password&lt;/label&gt;&lt;input type='password' name='password' /&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;h3 id='wow_thats_nuts_who_would_use_supergenpass'&gt;Wow, that&amp;#8217;s nuts. Who would use SuperGenPass?&lt;/h3&gt;
+
+&lt;p&gt;Well, it&amp;#8217;s interesting. SuperGenPass tends to be used and recommended exclusively within technical circles, by people who know the importance of strong passwords and have at least a vague notion of what hashing is. I suspect the cleverness and technical elegance of the solution is precisely why it lives on, like a tickle in the mind.&lt;/p&gt;
+
+&lt;h3 id='alternatives'&gt;Alternatives&lt;/h3&gt;
+
+&lt;p&gt;Since the main vulnerability is a trust boundary violation, moving the password form out of the host&amp;#8217;s DOM could theoretically be enough. Direct browser or OS integration could accomplish this, and &lt;a href='https://addons.mozilla.org/en-US/firefox/addon/52490/'&gt;several&lt;/a&gt; &lt;a href='http://github.com/gfxmonk/supergenpass'&gt;projects&lt;/a&gt; attempt to do just that, although I&amp;#8217;ve never tried them. And in the end, sometimes you can&amp;#8217;t beat the physical world for digital security.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.schneier.com/blog/archives/2005/06/write_down_your.html'&gt;Bruce Schneier&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Simply, people can no longer remember passwords good enough to reliably defend against dictionary attacks, and are much more secure if they choose a password too complicated to remember and then write it down. We&amp;#8217;re all good at securing small pieces of paper. I recommend that people write their passwords down on a small piece of paper, and keep it with their other valuable small pieces of paper: in their wallet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Be careful out there.&lt;/p&gt;</content>
+   <author>
+     <name>Michael Monteleone</name>
+     <uri>http://michaelmonteleone.net</uri>
+   </author>   
+ </entry>
+ 
+ <entry>
+   <title>Proxying ASP.NET AJAX events with jQuery</title>
+   <link href="http://michaelmonteleone.net/2010/07/09/proxying-asp.net-ajax-events-with-jquery/"/>
+   <updated>2010-07-09T00:00:00+08:00</updated>
+   <id>http://michaelmonteleone.net/2010/07/09/proxying-asp.net-ajax-events-with-jquery</id>
+   <content type="html">&lt;p&gt;&lt;a href='http://www.asp.net/mvc'&gt;MVC&lt;/a&gt; is great, but ASP.NET &lt;em&gt;remains&lt;/em&gt;. Web Forms walk &lt;em&gt;amongst us&lt;/em&gt;. Not alive, &lt;em&gt;not dead&lt;/em&gt;. (Not even &lt;a href='http://blogs.msdn.com/b/adonet/archive/2008/10/29/update-on-linq-to-sql-and-linq-to-entities-roadmap.aspx'&gt;LINQ to SQL-Dead&lt;/a&gt;.) William Faulkner, &lt;em&gt;who never maintained a legacy ASP.NET codebase&lt;/em&gt;, gets it right:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The past is never dead. It&amp;#8217;s not even past.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But as code has grown, so have tools for its manipulation. jQuery excels here. It&amp;#8217;s &lt;em&gt;great&lt;/em&gt; for bulk-shoveling client-side mass.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Here we&amp;#8217;ll see an example of this by proxying ASP.NET AJAX&amp;#8217;s client-side events as native jQuery events using jQuery&amp;#8217;s Special Event API and some fancy JavaScript meta-programming.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id='scenario'&gt;Scenario&lt;/h2&gt;
+
+&lt;p&gt;So, you&amp;#8217;re faced with an &lt;a href='http://msdn.microsoft.com/en-us/library/system.web.ui.updatepanel.aspx'&gt;UpdatePanel&lt;/a&gt; and need to post-process its results. Maybe you want to reveal the UpdatePanel&amp;#8217;s response through an animation. Sure, you could use the ASP.NET AJAX Control Toolkit, but maybe you&amp;#8217;re already using jQuery, having learned that the toolkit&amp;#8217;s server-side savings tend to cost you on the client, or maybe you want to do something deeper like re-wiring the response&amp;#8217;s particular content with other client-side logic.&lt;/p&gt;
+
+&lt;p&gt;Ideally, you could get by with jQuery &lt;a href='http://api.jquery.com/delegate/'&gt;event delegation&lt;/a&gt;, but maybe it&amp;#8217;s just out of practical bounds in your scenario. So, it&amp;#8217;s back to tying directly into ASP.NET AJAX&amp;#8217;s client side code.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s how you could do it by the book:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='c1'&gt;// add an event handler to fire when the UpdatePanel is done&lt;/span&gt;
+&lt;span class='nx'&gt;Sys&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;WebForms&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;PageRequestManager&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;getInstance&lt;/span&gt;&lt;span class='p'&gt;().&lt;/span&gt;&lt;span class='nx'&gt;add_endRequest&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;sender&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;args&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='c1'&gt;// and then process DOM content which is there as a result of the update&lt;/span&gt;
+    &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;div.someclass&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;show&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;slow&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='p'&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But you&amp;#8217;re using jQuery, and the impedance mismatch and explicit dependence on the AJAX toolkit is less than pleasant. Paraphrasing &lt;a href='http://blog.wekeroad.com/'&gt;Rob&lt;/a&gt;, &amp;#8220;impedance mismatch is death by a thousand cuts.&amp;#8221; You&amp;#8217;d probably prefer:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;document&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;bind&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;atlasEndRequest&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(){&lt;/span&gt;
+    &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;div.someclass&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;show&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;slow&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;    
+&lt;span class='p'&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id='solution'&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;That&amp;#8217;s easy to allow for with the aid of jQuery Special Events. Many people tend to equate jQuery plugins with with extending the &lt;code&gt;jQuery.fn&lt;/code&gt; object, but fewer are familiar with extending jQuery&amp;#8217;s events via the Special Events API. Though &lt;a href='http://benalman.com/news/2010/03/jquery-special-events/'&gt;much&lt;/a&gt; &lt;a href='http://brandonaaron.net/blog/2009/03/26/special-events'&gt;has&lt;/a&gt; &lt;a href='http://brandonaaron.net/blog/2009/06/4/jquery-edge-new-special-event-hooks'&gt;been&lt;/a&gt; &lt;a href='http://brandonaaron.net/blog/2010/02/25/special-events-the-changes-in-1-4-2'&gt;written&lt;/a&gt; about the Special Events API, I&amp;#8217;ve found it easiest to understand as simply a mechanism for executing code &lt;em&gt;upon the actual binding or unbinding&lt;/em&gt; of a given event.&lt;/p&gt;
+
+&lt;p&gt;So, &lt;code&gt;$(document).bind(&amp;#39;atlasEndRequest&amp;#39;, function(){...})&lt;/code&gt; is not only binding a callback to a custom event, it&amp;#8217;s also setting up background logic to properly &lt;em&gt;raise&lt;/em&gt; the &lt;em&gt;atlasEndRequest&lt;/em&gt; custom event when necessary.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='nx'&gt;jQuery&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;event&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;special&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;atlasEndRequest&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='c1'&gt;// following happens the first time &amp;#39;atlasUpdateEvent&amp;#39; is bound on a selection&lt;/span&gt;
+    &lt;span class='nx'&gt;setup&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;()&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; 
+        &lt;span class='c1'&gt;// have the PageRequestManager raise a jQuery-native event named&lt;/span&gt;
+        &lt;span class='c1'&gt;// &amp;#39;atlasEndRequest&amp;#39; in its callback&lt;/span&gt;
+        &lt;span class='nx'&gt;Sys&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;WebForms&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;PageRequestManager&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;getInstance&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
+            &lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;add_endRequest&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;s&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;args&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+                &lt;span class='nx'&gt;jQuery&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;document&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;trigger&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;atlasEndRequest&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='nx'&gt;sender&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='nx'&gt;s&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;args&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='nx'&gt;args&lt;/span&gt; &lt;span class='p'&gt;});&lt;/span&gt;
+            &lt;span class='p'&gt;});&lt;/span&gt;
+    &lt;span class='p'&gt;}&lt;/span&gt;
+&lt;span class='p'&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will work as-is. But special events can also have code run upon the last unbind of an event from a selection with &lt;code&gt;teardown&lt;/code&gt;, or (new in 1.4) upon &lt;em&gt;each&lt;/em&gt; bind and unbind of an event from a selection with &lt;code&gt;add&lt;/code&gt; and &lt;code&gt;remove&lt;/code&gt;. And the &lt;a href='http://msdn.microsoft.com/en-us/library/bb311028.aspx'&gt;PageRequestManager&lt;/a&gt; gives us &lt;a href='http://msdn.microsoft.com/en-us/library/bb384136.aspx'&gt;more possibly-useful events&lt;/a&gt; (initializeRequest, beginRequest, endRequest, pageLoading, pageLoaded) we might want to proxy as well. So, with a little bit of fancy meta-programming, we can support all of them, along with proper unbinding.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='c1'&gt;// list of all events this will wrap&lt;/span&gt;
+    &lt;span class='kd'&gt;var&lt;/span&gt; &lt;span class='nx'&gt;events&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;initializeRequest beginRequest endRequest pageLoading pageLoaded&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+    &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;each&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;events&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;split&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class='p'&gt;),&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;i&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;name&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='c1'&gt;// make a new camel-cased public &amp;#39;atlas*&amp;#39; name for the event&lt;/span&gt;
+        &lt;span class='kd'&gt;var&lt;/span&gt; &lt;span class='nx'&gt;mappedName&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;atlas&amp;#39;&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='nx'&gt;name&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;substring&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;1&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;toUpperCase&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='nx'&gt;name&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;substring&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;1&lt;/span&gt;&lt;span class='p'&gt;),&lt;/span&gt;
+            &lt;span class='c1'&gt;// build a callback for PageRequestManager&amp;#39;s event&lt;/span&gt;
+            &lt;span class='nx'&gt;handler&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;sender&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;args&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+                &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;document&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;trigger&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;mappedName&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='nx'&gt;sender&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='nx'&gt;sender&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;args&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='nx'&gt;args&lt;/span&gt; &lt;span class='p'&gt;});&lt;/span&gt;
+            &lt;span class='p'&gt;};&lt;/span&gt;
+       
+        &lt;span class='c1'&gt;// Whenever the atlas* event is first bound or last unbound,&lt;/span&gt;
+        &lt;span class='c1'&gt;// set up the callback with the PageRequestManager&amp;#39;s version of the event&lt;/span&gt;
+        &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;event&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;special&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='nx'&gt;mappedName&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+            &lt;span class='nx'&gt;setup&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;()&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='nx'&gt;requestManage&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;add_&amp;#39;&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='nx'&gt;name&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;handler&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt; &lt;span class='p'&gt;},&lt;/span&gt;
+            &lt;span class='nx'&gt;teardown&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;()&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='nx'&gt;requestManage&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;remove_&amp;#39;&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='nx'&gt;name&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;handler&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt;
+        &lt;span class='p'&gt;};&lt;/span&gt;
+
+        &lt;span class='c1'&gt;// also build a shortcut jquery plugin method for the event&lt;/span&gt;
+        &lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;fn&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='nx'&gt;mappedName&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;fn&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+            &lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='nx'&gt;fn&lt;/span&gt; &lt;span class='o'&gt;?&lt;/span&gt; &lt;span class='k'&gt;this&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;bind&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;mappedName&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;fn&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='k'&gt;this&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;trigger&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;mappedName&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+        &lt;span class='p'&gt;};&lt;/span&gt;
+    &lt;span class='p'&gt;});&lt;/span&gt;
+
+    &lt;span class='cm'&gt;/**&lt;/span&gt;
+&lt;span class='cm'&gt;     * Calls a given event-handling setup method on the PageRequestManager&lt;/span&gt;
+&lt;span class='cm'&gt;     * if there currently is one.  Rewrites self to save performance on subsequent&lt;/span&gt;
+&lt;span class='cm'&gt;     * calls.&lt;/span&gt;
+&lt;span class='cm'&gt;     * @param {String} method The name of the method to call on the PageRequestManager&lt;/span&gt;
+&lt;span class='cm'&gt;     * @param {Function} handler callback to pass as arg to the method&lt;/span&gt;
+&lt;span class='cm'&gt;     */&lt;/span&gt;
+    &lt;span class='kd'&gt;var&lt;/span&gt; &lt;span class='nx'&gt;requestManage&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;method&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;handler&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='kd'&gt;var&lt;/span&gt; &lt;span class='nx'&gt;prm&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;Sys&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;in&lt;/span&gt; &lt;span class='nb'&gt;window&lt;/span&gt; &lt;span class='o'&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;WebForms&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;in&lt;/span&gt; &lt;span class='nb'&gt;window&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;Sys&lt;/span&gt; &lt;span class='o'&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+                &lt;span class='s1'&gt;&amp;#39;PageRequestManager&amp;#39;&lt;/span&gt; &lt;span class='k'&gt;in&lt;/span&gt; &lt;span class='nb'&gt;window&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;Sys&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;WebForms&lt;/span&gt; &lt;span class='o'&gt;?&lt;/span&gt;
+                &lt;span class='nx'&gt;Sys&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;WebForms&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;PageRequestManager&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;getInstance&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt; &lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='kc'&gt;null&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+           &lt;span class='nx'&gt;bind&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;method&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;handler&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+                &lt;span class='k'&gt;if&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;prm&lt;/span&gt; &lt;span class='o'&gt;!==&lt;/span&gt; &lt;span class='kc'&gt;null&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+                    &lt;span class='nx'&gt;prm&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='nx'&gt;method&lt;/span&gt;&lt;span class='p'&gt;](&lt;/span&gt;&lt;span class='nx'&gt;handler&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+                &lt;span class='p'&gt;}&lt;/span&gt;
+            &lt;span class='p'&gt;};&lt;/span&gt;
+        &lt;span class='c1'&gt;// go ahead and bind &lt;/span&gt;
+        &lt;span class='nx'&gt;bind&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;method&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;handler&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+        &lt;span class='c1'&gt;// reassign this function for subsequent calls,&lt;/span&gt;
+        &lt;span class='c1'&gt;// to not unnecessarily rebuild bind and prm items&lt;/span&gt;
+        &lt;span class='c1'&gt;// this creates a closure over the current prm and bind&lt;/span&gt;
+        &lt;span class='nx'&gt;requestManage&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;method&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;handler&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+            &lt;span class='nx'&gt;bind&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;method&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;handler&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+        &lt;span class='p'&gt;};&lt;/span&gt;
+    &lt;span class='p'&gt;};&lt;/span&gt;
+&lt;span class='p'&gt;})(&lt;/span&gt;&lt;span class='nx'&gt;jQuery&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A bit of code, but dig in. You&amp;#8217;re smart. And two extra credit points:&lt;/p&gt;
+
+&lt;p&gt;It provides shortcut methods for binding and triggering the events, so&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;document&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;bind&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;atlasEndRequest&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(){&lt;/span&gt; 
+    &lt;span class='nx'&gt;console&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;log&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;update complete!&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='p'&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;is aliased&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;document&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;atlasEndRequest&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(){&lt;/span&gt;
+    &lt;span class='nx'&gt;console&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;log&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;update complete!&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;    
+&lt;span class='p'&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And it uses some fanciness with a self-reassigning-function to ensure that absence of the Sys.WebForms.PageRequestManager will not break the plugin, and getting its instance will only necessarily be called once. It&amp;#8217;s a micro-optimization for sure, but still a fun example.&lt;/p&gt;
+
+&lt;p&gt;If you are still interested in the &lt;code&gt;sender&lt;/code&gt; and &lt;code&gt;args&lt;/code&gt; parameters passed back from the PageRequestManager to its event handler, those are still exposed via the optional &lt;code&gt;data&lt;/code&gt; parameter.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='javascript'&gt;&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;document&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;bind&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;atlasEndRequest&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;e&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='nx'&gt;data&lt;/span&gt;&lt;span class='p'&gt;){&lt;/span&gt; 
+    &lt;span class='nx'&gt;console&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;log&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;data&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;args&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='nx'&gt;console&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;log&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;data&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;sender&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='p'&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Even if you don&amp;#8217;t find this particularly useful or practical, hopefully it opens your mind to JavaScript&amp;#8217;s yoga-like flexibility. &lt;a href='http://rubyforge.org/pipermail/camping-list/2008-May/000719.html'&gt;_why&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Not all code needs to be a factory, some of it can just be origami.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can grab this plugin along with its small test suite from &lt;a href='http://github.com/mmonteleone/jquery.updatepanel'&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content>
+   <author>
+     <name>Michael Monteleone</name>
+     <uri>http://michaelmonteleone.net</uri>
+   </author>   
+ </entry>
+ 
+ <entry>
+   <title>Suspiciously Pleasant XML with C# 4</title>
+   <link href="http://michaelmonteleone.net/2010/06/21/suspiciously-pleasant-xml-with-csharp-4/"/>
+   <updated>2010-06-21T00:00:00+08:00</updated>
+   <id>http://michaelmonteleone.net/2010/06/21/suspiciously-pleasant-xml-with-csharp-4</id>
+   <content type="html">&lt;p&gt;So it goes with the digestive processes of programming trends, and dynamic delegation has reached the crowded mainland shores of the .NET Framework in the form of C# 4&amp;#8217;s &lt;a href='http://msdn.microsoft.com/en-us/library/dd264736.aspx'&gt;dynamic&lt;/a&gt; type. Though it was nothing new even &lt;em&gt;then&lt;/em&gt;, six years ago many of us got our first hit of dynamic delegation through Ruby metaprogramming in Rails. The very notion that something like this:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='k'&gt;class&lt;/span&gt; &lt;span class='nc'&gt;User&lt;/span&gt; &lt;span class='o'&gt;&amp;lt;&lt;/span&gt; &lt;span class='ss'&gt;ActiveRecord&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;&lt;span class='ss'&gt;:Base&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt; &lt;span class='k'&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;was enough to provide a rich API over a &lt;code&gt;users&lt;/code&gt; database table supporting calls like the following was mind-opening at the time.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='n'&gt;users&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='no'&gt;User&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;find_all_by_state&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;TX&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='n'&gt;user&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='no'&gt;User&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;find_or_create_by_email&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;foo@bar.com&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Really? Yep, with Ruby&amp;#8217;s &lt;a href='http://weblog.jamisbuck.org/2006/12/1/under-the-hood-activerecord-base-find-part-3'&gt;&lt;code&gt;method_missing&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But the caffeine wears off, you buy a house in the suburbs, and you have to debug your fancy meta-code. JRuby core developer, Ola Bini &lt;a href='http://olabini.com/blog/2010/04/patterns-of-method-missing/'&gt;writes&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In almost all cases you think you need &lt;code&gt;method_missing&lt;/code&gt;, you actually don’t.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id='c_xml'&gt;C#? XML?&lt;/h2&gt;
+
+&lt;p&gt;Hold tight.&lt;/p&gt;
+
+&lt;p&gt;When he used to exist, &lt;a href='http://en.wikipedia.org/wiki/Why_the_lucky_stiff'&gt;_why&lt;/a&gt; &lt;a href='http://www.artima.com/forums/flat.jsp?forum=123&amp;amp;thread=92365#122911'&gt;wrote&lt;/a&gt; regarding Ruby&amp;#8217;s &lt;code&gt;method_missing&lt;/code&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I never use &lt;code&gt;method_missing&lt;/code&gt;. Maybe twice. And both times I didn’t use it, regretted it, forcefully ejected the code from a moving vehicle, shed nary a tear.&lt;/p&gt;
+
+&lt;p&gt;And yet, there’s so many great uses for &lt;code&gt;method_missing&lt;/code&gt; out there. If I may, a few of my favorite&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He included &lt;a href='http://onestepback.org'&gt;Jim Weirich&lt;/a&gt;&amp;#8217;s &lt;a href='http://builder.rubyforge.org/classes/Builder/XmlMarkup.html'&gt;Builder::XmlMarkup&lt;/a&gt;, which allows for:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;html&lt;/span&gt; &lt;span class='ss'&gt;:lang&lt;/span&gt; &lt;span class='o'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;en&amp;quot;&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
+  &lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;head&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
+    &lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;title&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;History&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+  &lt;span class='k'&gt;end&lt;/span&gt;
+  &lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;body&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
+    &lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;comment!&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;HI&amp;quot;&lt;/span&gt;
+    &lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;h1&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;Header&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;p&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;paragraph&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+  &lt;span class='k'&gt;end&lt;/span&gt;
+&lt;span class='k'&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;yielding,&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='html'&gt;&lt;span class='nt'&gt;&amp;lt;html&lt;/span&gt; &lt;span class='na'&gt;lang=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;en&amp;quot;&lt;/span&gt;&lt;span class='nt'&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;title&amp;gt;&lt;/span&gt;History&lt;span class='nt'&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class='c'&gt;&amp;lt;!-- HI --&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Header&lt;span class='nt'&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;p&amp;gt;&lt;/span&gt;paragraph&lt;span class='nt'&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Other than &lt;code&gt;comment!&lt;/code&gt;, None of the methods called on the &lt;code&gt;xml&lt;/code&gt; object exist, and are instead resolved into element names at runtime. So we end up with a simple, declarative, XML generation DSL that doesn&amp;#8217;t care about the schema it&amp;#8217;s generating.&lt;/p&gt;
+
+&lt;p&gt;Hey, that&amp;#8217;s &lt;em&gt;useful&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id='introducing_dynamicbuilder'&gt;Introducing &lt;a href='http://github.com/mmonteleone/dynamicbuilder'&gt;DynamicBuilder&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;So, now with C# 4&amp;#8217;s &lt;a href='http://msdn.microsoft.com/en-us/library/dd264736.aspx'&gt;dynamic&lt;/a&gt; type and the &lt;a href='http://msdn.microsoft.com/en-us/library/system.dynamic.dynamicobject.aspx'&gt;DynamicObject&lt;/a&gt; class, .NET has a mostly-workable &lt;code&gt;method_missing&lt;/code&gt; of its own. And with the help of a smidgen of code that is &lt;a href='http://github.com/mmonteleone/dynamicbuilder'&gt;DynamicBuilder&lt;/a&gt;, we can accomplish the same API.&lt;/p&gt;
+
+&lt;p&gt;You can learn it in five minutes and integrate it into existing code in even less time as it&amp;#8217;s just a single small class.&lt;/p&gt;
+
+&lt;h3 id='examples'&gt;Examples&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Nodes via dynamic invocation&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='kt'&gt;dynamic&lt;/span&gt; &lt;span class='n'&gt;x&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;
+
+&lt;span class='c1'&gt;// non-existent &amp;quot;hello&amp;quot; method resolves to a &amp;quot;hello&amp;quot; node at runtime&lt;/span&gt;
+&lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;hello&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;world&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;yields&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='xml'&gt;&lt;span class='nt'&gt;&amp;lt;hello&amp;gt;&lt;/span&gt;world&lt;span class='nt'&gt;&amp;lt;/hello&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Attributes via anonymous objects&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='kt'&gt;dynamic&lt;/span&gt; &lt;span class='n'&gt;x&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;    
+
+&lt;span class='c1'&gt;// passing an anonymous object resolves to xml attributes&lt;/span&gt;
+&lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;user&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='n'&gt;username&lt;/span&gt;&lt;span class='p'&gt;=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;jdoe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;usertype&lt;/span&gt;&lt;span class='p'&gt;=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;admin&amp;quot;&lt;/span&gt; &lt;span class='p'&gt;},&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;John Doe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;yields&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='xml'&gt;&lt;span class='nt'&gt;&amp;lt;user&lt;/span&gt; &lt;span class='na'&gt;username=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;jdoe&amp;quot;&lt;/span&gt; &lt;span class='na'&gt;usertype=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;admin&amp;quot;&lt;/span&gt;&lt;span class='nt'&gt;&amp;gt;&lt;/span&gt;John Doe&lt;span class='nt'&gt;&amp;lt;/user&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Nesting via anonymous delegates&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='kt'&gt;dynamic&lt;/span&gt; &lt;span class='n'&gt;x&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;
+
+&lt;span class='c1'&gt;// passing an anonymous delegate creates a nested context&lt;/span&gt;
+&lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;user&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Fragment&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;u&lt;/span&gt; &lt;span class='p'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;firstname&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;John&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;lastname&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;Doe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;email&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;jdoe@example.org&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;phone&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='n'&gt;type&lt;/span&gt;&lt;span class='p'&gt;=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;cell&amp;quot;&lt;/span&gt; &lt;span class='p'&gt;},&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;(985) 555-1234&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='p'&gt;}));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;yields&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='xml'&gt;&lt;span class='nt'&gt;&amp;lt;user&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;firstname&amp;gt;&lt;/span&gt;John&lt;span class='nt'&gt;&amp;lt;/firstname&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;lastname&amp;gt;&lt;/span&gt;Doe&lt;span class='nt'&gt;&amp;lt;/lastname&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;email&amp;gt;&lt;/span&gt;jdoe@example.org&lt;span class='nt'&gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;phone&lt;/span&gt; &lt;span class='na'&gt;type=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;cell&amp;quot;&lt;/span&gt;&lt;span class='nt'&gt;&amp;gt;&lt;/span&gt;(985) 555-1234&lt;span class='nt'&gt;&amp;lt;/phone&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;/user&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Putting it all together: building an Atom syndication feed&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='c1'&gt;// First let&amp;#39;s get some posts from a hypothetical `postRepository`&lt;/span&gt;
+&lt;span class='kt'&gt;var&lt;/span&gt; &lt;span class='n'&gt;posts&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='n'&gt;postRepository&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;GetLatest&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='m'&gt;25&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+
+&lt;span class='c1'&gt;// now let&amp;#39;s build an atom feed dynamically&lt;/span&gt;
+&lt;span class='kt'&gt;dynamic&lt;/span&gt; &lt;span class='n'&gt;xml&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;
+
+&lt;span class='c1'&gt;// set an xml declaration tag&lt;/span&gt;
+&lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Declaration&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;
+
+&lt;span class='c1'&gt;// create the feed and metadata&lt;/span&gt;
+&lt;span class='n'&gt;xml&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;feed&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='n'&gt;xmlns&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;http://www.w3.org/2005/Atom&amp;quot;&lt;/span&gt; &lt;span class='p'&gt;},&lt;/span&gt; &lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Fragment&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;feed&lt;/span&gt; &lt;span class='p'&gt;=&amp;gt;&lt;/span&gt;
+&lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='n'&gt;feed&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;title&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;Michael&amp;#39;s Blog!&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;feed&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;link&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='n'&gt;href&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;http://michaelmonteleone.net&amp;quot;&lt;/span&gt; &lt;span class='p'&gt;});&lt;/span&gt;
+    &lt;span class='n'&gt;feed&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;link&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='n'&gt;href&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;http://michaelmonteleone.net/feed.xml&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;rel&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;self&amp;quot;&lt;/span&gt; &lt;span class='p'&gt;});&lt;/span&gt;
+    &lt;span class='n'&gt;feed&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;author&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Fragment&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;author&lt;/span&gt; &lt;span class='p'&gt;=&amp;gt;&lt;/span&gt;
+    &lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='n'&gt;author&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;name&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;Michael Monteleone&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+        &lt;span class='n'&gt;author&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;email&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;michael@michaelmonteleone.net&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='p'&gt;}));&lt;/span&gt;
+
+    &lt;span class='c1'&gt;// iterate through the posts, adding them to the feed&lt;/span&gt;
+    &lt;span class='k'&gt;foreach&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='kt'&gt;var&lt;/span&gt; &lt;span class='n'&gt;post&lt;/span&gt; &lt;span class='k'&gt;in&lt;/span&gt; &lt;span class='n'&gt;posts&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='n'&gt;feed&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;entry&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Fragment&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;entry&lt;/span&gt; &lt;span class='p'&gt;=&amp;gt;&lt;/span&gt;
+        &lt;span class='p'&gt;{&lt;/span&gt;
+            &lt;span class='n'&gt;entry&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;title&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;post&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Title&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+            &lt;span class='n'&gt;entry&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;link&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='n'&gt;href&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='n'&gt;post&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;PermaLink&lt;/span&gt; &lt;span class='p'&gt;});&lt;/span&gt;
+            &lt;span class='n'&gt;entry&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;updated&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;post&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;PublishDate&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+            &lt;span class='n'&gt;entry&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;content&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;post&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Content&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+        &lt;span class='p'&gt;}));&lt;/span&gt;
+    &lt;span class='p'&gt;}&lt;/span&gt;
+&lt;span class='p'&gt;}));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;yields&lt;/em&gt;&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='xml'&gt;&lt;span class='cp'&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;feed&lt;/span&gt; &lt;span class='na'&gt;xmlns=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;http://www.w3.org/2005/Atom&amp;quot;&lt;/span&gt;&lt;span class='nt'&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Michael&amp;#39;s Blog!&lt;span class='nt'&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;link&lt;/span&gt; &lt;span class='na'&gt;href=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;http://michaelmonteleone.net&amp;quot;&lt;/span&gt; &lt;span class='nt'&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;link&lt;/span&gt; &lt;span class='na'&gt;href=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;http://michaelmonteleone.net/feed.xml&amp;quot;&lt;/span&gt; &lt;span class='na'&gt;rel=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;self&amp;quot;&lt;/span&gt; &lt;span class='nt'&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;author&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;name&amp;gt;&lt;/span&gt;Michael Monteleone&lt;span class='nt'&gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;email&amp;gt;&lt;/span&gt;michael@michaelmonteleone.net&lt;span class='nt'&gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;/author&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;entry&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Third post!&lt;span class='nt'&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;link&lt;/span&gt; &lt;span class='na'&gt;href=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;http://michaelmonteleone.net/2010/03/01/strike-three&amp;quot;&lt;/span&gt; &lt;span class='nt'&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;updated&amp;gt;&lt;/span&gt;3/1/2010 12:00:00 AM&lt;span class='nt'&gt;&amp;lt;/updated&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;content&amp;gt;&lt;/span&gt;[...]&lt;span class='nt'&gt;&amp;lt;/content&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;/entry&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;entry&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Second post!&lt;span class='nt'&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;link&lt;/span&gt; &lt;span class='na'&gt;href=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;http://michaelmonteleone.net/2010/25/02/second-post&amp;quot;&lt;/span&gt; &lt;span class='nt'&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;updated&amp;gt;&lt;/span&gt;2/25/2010 12:00:00 AM&lt;span class='nt'&gt;&amp;lt;/updated&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;content&amp;gt;&lt;/span&gt;[...]&lt;span class='nt'&gt;&amp;lt;/content&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;/entry&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;entry&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;title&amp;gt;&lt;/span&gt;First post!&lt;span class='nt'&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;link&lt;/span&gt; &lt;span class='na'&gt;href=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;http://michaelmonteleone.net/2010/02/19/very-first-post&amp;quot;&lt;/span&gt; &lt;span class='nt'&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;updated&amp;gt;&lt;/span&gt;2/19/2010 12:00:00 AM&lt;span class='nt'&gt;&amp;lt;/updated&amp;gt;&lt;/span&gt;
+    &lt;span class='nt'&gt;&amp;lt;content&amp;gt;&lt;/span&gt;[...]&lt;span class='nt'&gt;&amp;lt;/content&amp;gt;&lt;/span&gt;
+  &lt;span class='nt'&gt;&amp;lt;/entry&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;/feed&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id='shoulders_of_giants'&gt;Shoulders of Giants&lt;/h2&gt;
+
+&lt;p&gt;Well, that&amp;#8217;s all nice I guess, but the last thing you want is more XML, right? What about other .NET XML APIs? How is this any better?&lt;/p&gt;
+
+&lt;h3 id='the_systemxml_ghetto'&gt;The System.Xml Ghetto&lt;/h3&gt;
+
+&lt;p&gt;The mean streets. Power and control meets, well, nothing. The original &lt;code&gt;System.Xml&lt;/code&gt; types, with us since the beginning of .NET, can be quite tedious to manipulate directly and have grown anachronistically low-level.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='c1'&gt;// Direct node creation with System.Xml types&lt;/span&gt;
+&lt;span class='n'&gt;XmlDocument&lt;/span&gt; &lt;span class='n'&gt;doc&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;XmlDocument&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;
+&lt;span class='n'&gt;XmlElement&lt;/span&gt; &lt;span class='n'&gt;userElement&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='n'&gt;doc&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;CreateElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;user&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;doc&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;AppendChild&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;userElement&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;XmlElement&lt;/span&gt; &lt;span class='n'&gt;firstNameElement&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='n'&gt;doc&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;CreateElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;firstname&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;firstNameElement&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;InnerText&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;John&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='n'&gt;userElement&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;AppendChild&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;firstNameElement&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;XmlElement&lt;/span&gt; &lt;span class='n'&gt;lastNameElement&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='n'&gt;doc&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;CreateElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;lastname&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;lastNameElement&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;InnerText&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;Doe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='n'&gt;userElement&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;AppendChild&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;lastNameElement&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;XmlElement&lt;/span&gt; &lt;span class='n'&gt;emailElement&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='n'&gt;doc&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;CreateElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;emailElement&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;InnerText&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;jdoe@example.org&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='n'&gt;userElement&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;AppendChild&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;emailElement&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;doc&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Save&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;Console&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Out&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+
+&lt;span class='c1'&gt;// Xml creation with an XmlTextWriter - maybe sorta better?&lt;/span&gt;
+&lt;span class='n'&gt;XmlTextWriter&lt;/span&gt; &lt;span class='n'&gt;writer&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;XmlTextWriter&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;Console&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Out&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;writer&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;WriteStartElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;user&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;writer&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;WriteElementString&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;firstname&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;John&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;writer&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;WriteElementString&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;firstname&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;Doe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;writer&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;WriteElementString&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;jdoe@example.org&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='n'&gt;writer&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;WriteEndElement&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;
+&lt;span class='n'&gt;writer&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Close&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;While these types still are behind the scenes of all subsequent .NET XML APIs (including DynamicBuilder), their verbose syntaxes mean they are no longer the best option for direct XML creation.&lt;/p&gt;
+
+&lt;h3 id='the_systemxmlserialization_suburbs'&gt;The System.Xml.Serialization Suburbs&lt;/h3&gt;
+
+&lt;p&gt;Medicated and mostly harmless. This is an attractive choice when your serializable types map exactly to the XML you wish to generate. Otherwise, I hope you like creating boilerplate adapter classes just for serialization, or that you actually enjoy XSLT.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='na'&gt;[Serializable]&lt;/span&gt;
+&lt;span class='k'&gt;public&lt;/span&gt; &lt;span class='k'&gt;class&lt;/span&gt; &lt;span class='nc'&gt;User&lt;/span&gt;
+&lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='k'&gt;public&lt;/span&gt; &lt;span class='kt'&gt;string&lt;/span&gt; &lt;span class='n'&gt;FirstName&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='k'&gt;get&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt; &lt;span class='k'&gt;set&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt;
+    &lt;span class='k'&gt;public&lt;/span&gt; &lt;span class='kt'&gt;string&lt;/span&gt; &lt;span class='n'&gt;LastName&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='k'&gt;get&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt; &lt;span class='k'&gt;set&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt;
+    &lt;span class='k'&gt;public&lt;/span&gt; &lt;span class='kt'&gt;string&lt;/span&gt; &lt;span class='n'&gt;Email&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='k'&gt;get&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt; &lt;span class='k'&gt;set&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt;
+&lt;span class='p'&gt;}&lt;/span&gt;    
+
+&lt;span class='n'&gt;User&lt;/span&gt; &lt;span class='n'&gt;user&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;User&lt;/span&gt;&lt;span class='p'&gt;();&lt;/span&gt;
+&lt;span class='n'&gt;XmlSerializer&lt;/span&gt; &lt;span class='n'&gt;x&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;XmlSerializer&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='k'&gt;typeof&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;User&lt;/span&gt;&lt;span class='p'&gt;));&lt;/span&gt;
+&lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Serialize&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;Console&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Out&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;user&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;DynamicBuilder allows code that is just as terse as a serializable class while still retaining the flexibility of manually generating specific XML content.&lt;/p&gt;
+
+&lt;h3 id='the_systemxmllinq_new_urbanism'&gt;The System.Xml.Linq New Urbanism&lt;/h3&gt;
+
+&lt;p&gt;Attractive but superficial. C# 3.0 introduced LINQ to XML, and with it, the &lt;code&gt;System.Xml.Linq&lt;/code&gt; types. This revolutionized both the programmatic querying of XML as well as the declarative construction of it via object initialization.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='n'&gt;XElement&lt;/span&gt; &lt;span class='n'&gt;user&lt;/span&gt; &lt;span class='p'&gt;=&lt;/span&gt; &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='n'&gt;XElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;user&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; 
+    &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='nf'&gt;XElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;firstname&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;John&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;),&lt;/span&gt;
+    &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='nf'&gt;XElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;lastname&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;Doe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;),&lt;/span&gt;
+    &lt;span class='k'&gt;new&lt;/span&gt; &lt;span class='nf'&gt;XElement&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;jdoe@exampe.org&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;While a significant improvement, it can still be awkward and unnatural to use when the document must be generated logically, as everything must be declared via object initialization. DynamicBuilder&amp;#8217;s choice of anonymous delegates over object initialization allows for all manner of imaginable logic to be employed within a single, unified, XML creation block. Coupled with DynamicBuilder&amp;#8217;s anonymous object-to-attributes mapping, and the syntax is also much thinner and closer to the resulting markup than nested &lt;code&gt;XElement&lt;/code&gt; noise.&lt;/p&gt;
+
+&lt;p&gt;LINQ to XML is still probably the simplest XML &lt;em&gt;querying/consumption&lt;/em&gt; mechanism. Also, &lt;code&gt;DynamicBuilder.Xml&lt;/code&gt; actually uses &lt;code&gt;System.Xml.Linq&lt;/code&gt; types internally to model its XML, and can easily expose it via its &lt;code&gt;ToXElement()&lt;/code&gt; method.&lt;/p&gt;
+
+&lt;h2 id='the_catch'&gt;The Catch?&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;What about Document Types, Comments, and Namespaces?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In as much as System.Xml.Linq supports them, so does DynamicBuilder. Check the &lt;a href='http://github.com/mmonteleone/DynamicBuilder'&gt;doc&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ok, but what&amp;#8217;s with that ugly &lt;code&gt;Xml.Fragment()&lt;/code&gt; thing?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, you got me there. Dynamic operations in C# 4 can do nearly anything: method calls, properties, &lt;em&gt;even executing the dynamic object as a delegate&lt;/em&gt;. Unfortunately, those dynamic method calls &lt;em&gt;cannot accept anonymous lambdas&lt;/em&gt;. Admittedly, this would have been so much better:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;user&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;u&lt;/span&gt; &lt;span class='p'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;firstname&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;John&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;lastname&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;Doe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;email&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;jdoe@example.org&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='p'&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And it&amp;#8217;s what Builder does. Sadly,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Error: Cannot use a lambda expression as an argument to a dynamically dispatched 
+operation without first casting it to a delegate or expression tree type.&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And just like that, so many Ruby-ish DSLs will never see the light of day. Instead we would have to cast the lambda:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;user&lt;/span&gt;&lt;span class='p'&gt;((&lt;/span&gt;&lt;span class='n'&gt;Action&lt;/span&gt;&lt;span class='p'&gt;&amp;lt;&lt;/span&gt;&lt;span class='kt'&gt;dynamic&lt;/span&gt;&lt;span class='p'&gt;&amp;gt;)(&lt;/span&gt;&lt;span class='n'&gt;u&lt;/span&gt; &lt;span class='p'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;firstname&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;John&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;lastname&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;Doe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;email&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;jdoe@example.org&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='p'&gt;}));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To counteract that ugliness just a bit, the static helper &lt;code&gt;Xml.Fragment()&lt;/code&gt; hides the cast.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='csharp'&gt;&lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;user&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;Xml&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Fragment&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;u&lt;/span&gt; &lt;span class='p'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;firstname&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;John&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;lastname&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;Doe&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+    &lt;span class='n'&gt;u&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='n'&gt;email&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;jdoe@example.org&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;span class='p'&gt;}));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id='installationusage'&gt;Installation/Usage&lt;/h2&gt;
+
+&lt;p&gt;Since it&amp;#8217;s just a single class, you could simply copy &lt;code&gt;Xml.cs&lt;/code&gt; directly into your project. It doesn&amp;#8217;t really warrant the overhead of being a referenced assembly.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href='http://github.com/mmonteleone/DynamicBuilder'&gt;Download the source, tests, and example from GitHub&lt;/a&gt;.&lt;/li&gt;
+
+&lt;li&gt;cd into the project&amp;#8217;s directory &lt;code&gt;&amp;gt; build release&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Copy &lt;code&gt;build\Release\Xml.cs&lt;/code&gt; into your own project. Alternatively, you could add a reference to &lt;code&gt;DynamicBuilder.dll&lt;/code&gt;.&lt;/li&gt;
+
+&lt;li&gt;Either modify &lt;code&gt;Xml.cs&lt;/code&gt; to share your project&amp;#8217;s namespace, or add the &lt;code&gt;DynamicBuilder&lt;/code&gt; namespace within your code&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To run DynamicBuilder&amp;#8217;s &lt;a href='http://xunit.codeplex.com/'&gt;xUnit&lt;/a&gt; test suite, use&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;build test&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id='ongoing'&gt;Ongoing&lt;/h2&gt;
+
+&lt;p&gt;Even if this dynamic hipster jazz isn&amp;#8217;t your thing, it&amp;#8217;s always useful to learn from other languages&amp;#8217; cultural approaches to solving universal programming problems.&lt;/p&gt;
+
+&lt;p&gt;DynamicBuilder is a work in progress. Please feel free to fork away.&lt;/p&gt;</content>
+   <author>
+     <name>Michael Monteleone</name>
+     <uri>http://michaelmonteleone.net</uri>
+   </author>   
+ </entry>
+ 
+ <entry>
+   <title>Hello, World.</title>
+   <link href="http://michaelmonteleone.net/2010/06/15/hello-world/"/>
+   <updated>2010-06-15T00:00:00+08:00</updated>
+   <id>http://michaelmonteleone.net/2010/06/15/hello-world</id>
+   <content type="html">&lt;p&gt;When I was younger, I considered myself a musician. As a real musician, I owned a collection of instruments, amplifiers, and cables. As a real musician, I wrote songs, played with groups, and tossed around words like &amp;#8220;gig&amp;#8221; &lt;em&gt;without&lt;/em&gt; irony. I was so pretentious that I feared not being able to continue writing simply from running out of notes. &amp;#8220;There can only be so many combinations of chords and rhythms, right?&amp;#8221; But I grew older, played less, and listened more. And I became aware of how little I really knew. &lt;em&gt;&amp;#8220;Musician?&amp;#8221;&lt;/em&gt; Now just an embarrassing self-title.&lt;/p&gt;
+
+&lt;p&gt;In Wikipedia&amp;#8217;s overview of the &lt;a href='http://en.wikipedia.org/wiki/Dunning–Kruger_effect'&gt;Dunning-Kruger effect&lt;/a&gt;, Bertrand Russel is quoted:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In the modern world the stupid are cocksure while the intelligent are full of doubt.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So, it&amp;#8217;s 2010. And I am starting a blog.&lt;/p&gt;
+
+&lt;p&gt;Though it may be ten years and &lt;a href='http://en.wikipedia.org/wiki/Web_2.0'&gt;two versions&lt;/a&gt; of the Web late, hopefully this delayed entrance will yield an otherwise lacking acute self-awareness of just how unnecessary Yet Another Blog is. After all, there can only be so many combinations of words, right?&lt;/p&gt;
+
+&lt;h3 id='who_are_you'&gt;Who are you?&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href='/about/'&gt;about&lt;/a&gt; page has that.&lt;/p&gt;
+
+&lt;h3 id='what_can_i_expect'&gt;What can I expect?&lt;/h3&gt;
+
+&lt;p&gt;Mostly technical topics centered on programming concerns as well as design and usability. I plan to share and discuss code, critique my own and others&amp;#8217; work, and make an honest attempt to avoid being just another echo in the techno-blogo-chamber.&lt;/p&gt;
+
+&lt;h3 id='will_it_be_worth_my_time'&gt;Will it be worth my time?&lt;/h3&gt;
+
+&lt;p&gt;What a rude, but honest, question. It may not be at first, but with practice and patience, who knows?&lt;/p&gt;
+
+&lt;h3 id='how_often_will_you_post'&gt;How often will you post?&lt;/h3&gt;
+
+&lt;p&gt;I make no promises.&lt;/p&gt;
+
+&lt;h3 id='well_then'&gt;Well then&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;#8217;s get on with it.&lt;/p&gt;</content>
+   <author>
+     <name>Michael Monteleone</name>
+     <uri>http://michaelmonteleone.net</uri>
+   </author>   
+ </entry>
+ 
+ 
+</feed>
