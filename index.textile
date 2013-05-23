@@ -12,7 +12,7 @@ h1. Hello.
 
 我先试试呀，康颖是个"小笨狗！(不过我还是很喜欢她得！)"
 
-After twelve years of crafting corners of the Web for others and two years after blogs "died ('Wired' Confirms It)":http://www.wired.com/entertainment/theweb/magazine/16-11/st_essay/, he knew it was time to build his own.
+123123123123123 r others and two years after blogs "died ('Wired' Confirms It)":http://www.wired.com/entertainment/theweb/magazine/16-11/st_essay/, he knew it was time to build his own.
 
 He's written "more (More About Michael)":/about/ about himself, but would rather hear from "you (Speaking of dead technology, send me an email!)":mailto:michael@michaelmonteleone.net
 
