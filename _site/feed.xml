@@ -4,7 +4,7 @@
  <title>Michael Monteleone</title>
  <link href="http://michaelmonteleone.net/feed.xml" rel="self"/>
  <link href="http://michaelmonteleone.net/"/>
- <updated>2013-05-23T15:06:52+08:00</updated>
+ <updated>2013-05-23T15:48:45+08:00</updated>
  <id>http://michaelmonteleone.net/</id>
  <author>
    <name>Michael Monteleone</name>
@@ -19,11 +19,11 @@
    <id>http://michaelmonteleone.net/2010/08/03/low-blow</id>
    <content type="html">&lt;p&gt;This is a low blow, but it&amp;#8217;s been awhile since I fired up a fresh Internet Explorer instance within a fresh Windows Virtual Machine. And, &lt;em&gt;lo&amp;#8230;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src='/assets/images/lowblow-ie.png' alt='Internet Explorer 8 in Windows 7' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Internet Explorer 8 in Windows 7' src='/assets/images/lowblow-ie.png' /&gt;&lt;/p&gt;
 
 &lt;p&gt;Let&amp;#8217;s compare.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src='/assets/images/lowblow-safari.png' alt='Safari 5 in OS X' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Safari 5 in OS X' src='/assets/images/lowblow-safari.png' /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m not comparing rendering engines &amp;#8212; I deliberately erased the content to cancel that variable. No, I&amp;#8217;m comparing the &lt;em&gt;browsers&lt;/em&gt;.&lt;/p&gt;
 
@@ -163,7 +163,7 @@ jQuery(function($){
 &lt;span class='p'&gt;});&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;So, let&amp;#8217;s try it out. Grab the SuperGenPass &lt;a href='http://supergenpass.com/'&gt;bookmarklet&lt;/a&gt;, and then come back here and click it. The mockup login form below will be automatically targeted.&lt;/p&gt;
-&lt;form action='/' method='GET' id='supergenpass_test'&gt;
+&lt;form id='supergenpass_test' action='/' method='GET'&gt;
     &lt;div&gt;
         &lt;label for='username'&gt;User Name&lt;/label&gt;&lt;input type='text' name='username' /&gt;
     &lt;/div&gt;
